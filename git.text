@@ -89,10 +89,7 @@ git switch namebranch: cambiar de rama.
 
 git merge namebranch: combinar los cambios.
 
-
-
-
-
+git stash
 
 
 
