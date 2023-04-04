@@ -89,7 +89,9 @@ git switch namebranch: cambiar de rama.
 
 git merge namebranch: combinar los cambios.
 
-git stash
+git stash: guardar algo temporalmente.
+
+git stash list: ver un listado de los stash. 
 
 
 
