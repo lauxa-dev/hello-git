@@ -1,0 +1,155 @@
+INSTALACION DE GIT: 
+Paso 1: instalar homebrew
+Paso 2: ir a la terminal y escribir el comando (brew Install git). 
+
+
+COMO COMPROBAR INSTALACION DE GIT: Escribir comando (git).
+
+
+VER VERSION DE GIT: 
+Escribir comando 
+(git --version).
+
+
+VER COMANDOS DE GIT: 
+Escribir comando 
+(git --help).
+
+
+QUE ES GIT:
+git es un sistema de control de versiones.
+
+
+COMANDOS DE GIT:
+ls: Listar todos los directorios y ficheros. 
+
+cd: Movernos entre directorios y ficheros.
+
+pwd: Ver en la ruta que estamos. 
+
+mkdir "nombre de la carpeta": Crear carpeta.
+
+
+clear: Limpiar la consola. 
+
+git config --global user.name "nombre de usuario": configuración inicial de git, donde indicamos el nombre de usuario a nivel global de nuestra maquina local.
+
+git config --global user.name "nombre de usuario": configuración inicial de git, donde indicamos el nombre de email a nivel global de nuestra maquina local.
+
+git config user.name "nombre de usuario": configuración inicial de git, donde indicamos el nombre de email a nivel local de nuestro directorio.
+
+git config user.name "nombre de email": configuración inicial de git, donde indicamos el nombre de email a nivel local de nuestro directorio.
+
+touch: crear fichero.
+
+git init: inicializar git en un directorio. 
+
+git branch -m name: cambiar nombre de la rama master.
+
+git status: ver el estado de un fichero. 
+
+git add: agregar un fichero al estado de preparación.
+
+git log: sirve para ver todos los commit.
+
+git commit: hacer un guardado de una version de un fichero.
+
+git commit -m "namecommit": hacer un guardado de una version de un fichero.
+
+git checkout name: volver a una version en espesifico de un fichero. 
+
+git reset: volver a la ultima version de un fichero
+
+git log --graph: sirve para ver todos los commit.
+
+git log --graph --pretty=oneline: sirve para ver todos los commit.
+
+git log --graph --decorate --all --oneline: sirve para ver todos los commit.
+
+git config --global alias.namealias "log --graph --decorate --all --oneline": Es un git log personalizado que podemos ver.
+
+git config  alias.namealias "log --graph --decorate --all --oneline":Es un git log personalizado que podemos ver.
+
+
+touch .gitignore: ignorar un fichero.
+
+git diff: ver todos los cambios que uno a echo en un fichero
+
+git reset --hard commitid: volver a una versión en espesifica y borra todo lo demás de adelante.
+
+git reflog: historial completo de interacciones.
+
+git tag nametag: establecer un punto fijo de una version.
+
+git checkout tags/nametag:  volver a una version en especifico marcado por un tag.
+
+git branch namebranch: crear una rama
+
+git switch namebranch: cambiar de rama.
+
+git merge namebranch: combinar los cambios.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
