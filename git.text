@@ -93,7 +93,7 @@ git stash: guardar algo temporalmente.
 
 git stash list: ver un listado de los stash. 
 
-
+git stash pop: volver a un stash.
 
 
 
