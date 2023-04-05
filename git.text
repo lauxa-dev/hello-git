@@ -83,7 +83,9 @@ git tag nametag: establecer un punto fijo de una version.
 
 git checkout tags/nametag:  volver a una version en especifico marcado por un tag.
 
-git branch namebranch: crear una rama
+git branch namebranch: crear una rama.
+
+git branch -d namebranch: borrar una rama.
 
 git switch namebranch: cambiar de rama.
 
