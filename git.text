@@ -93,7 +93,9 @@ git stash: guardar algo temporalmente.
 
 git stash list: ver un listado de los stash. 
 
-git stash pop: volver a un stash.
+git stash pop: recuperar lo que uno a guardado de forma temporal.
+
+git stash drop: eliminar un stash.
 
 
 
