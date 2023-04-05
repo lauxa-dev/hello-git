@@ -73,7 +73,7 @@ git config  alias.namealias "log --graph --decorate --all --oneline":Es un git l
 
 touch .gitignore: ignorar un fichero.
 
-git diff: ver todos los cambios que uno a echo en un fichero
+git diff namebranch: ver todos los cambios que uno a echo en un fichero
 
 git reset --hard commitid: volver a una versión en espesifica y borra todo lo demás de adelante.
 
@@ -89,9 +89,13 @@ git switch namebranch: cambiar de rama.
 
 git merge namebranch: combinar los cambios.
 
+git stash: guardar algo temporalmente.
 
+git stash list: ver un listado de los stash. 
 
+git stash pop: recuperar lo que uno a guardado de forma temporal.
 
+git stash drop: eliminar un stash.
 
 
 
