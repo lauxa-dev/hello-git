@@ -1,3 +1,4 @@
+GIT:
 INSTALACION DE GIT: 
 Paso 1: instalar homebrew
 Paso 2: ir a la terminal y escribir el comando (brew Install git). 
@@ -19,6 +20,7 @@ Escribir comando
 QUE ES GIT:
 git es un sistema de control de versiones.
 
+SACAR CARPETAS OCULTAS:(comand mayusculas  )
 
 COMANDOS DE GIT:
 ls: Listar todos los directorios y ficheros. 
@@ -97,44 +99,28 @@ git stash list: ver un listado de los stash.
 
 git stash pop: recuperar lo que uno a guardado de forma temporal.
 
-git stash drop: eliminar un stash.
+git stash drop: eliminar un stash. 
 
+git push -u origin branch o commit: subir proyecto a github. 
 
+GITHUB:
+COMO INICIAR SESION EN GITHUB: nombre de usuario, email, contraseña.
 
+PAGINA DE DOCUMENTACION DE GITHUB: docs.github.com.
 
+COMPROBAR CLAVE SSH: ls -al ~/.ssh.
 
+CREAR CLAVE SSH: meterse al directorio ssh en terminal poner comando (ssh-keygen -t ed25519 -C "your_email@example.com") poner nombre de la clave ssh y crear fichero ssh de configuración (touch ~/.ssh/config) y meterse al fichero ssh de configuracion y poner (Host github.com
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/nombre de la clave) y poner este comando en la terminal (Host github.com
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/nombre de la clave) y ir a los ajustes de GitHub y pulsamos el boton (ssh and gpg keys) y uno pulsa (new ssh key) y despues copiamos la clave ssh publica y la pegamos donde sale key y pulsamos el boton (add ssh key)
+Y vamos a la terminal y escribimos el comando (ssh -T git@github.com) y si sale Hi lauxa-dev! You've successfully authenticated, but GitHub does not provide shell access.
+Esta listo y si sale otra cosa escribimos yes.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+CREAR UN REPOSITORIO: acer clic en el boton new (si es primer repositorio poner poner nombre de usuario) y ponemos el comando (git remote add origin git@github.com:nombre de usuario/nombre de repositorio.git) y despues ponemos el comando (git push -u origin rama maestra)
 
 
 
