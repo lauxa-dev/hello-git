@@ -101,7 +101,11 @@ git stash pop: recuperar lo que uno a guardado de forma temporal.
 
 git stash drop: eliminar un stash. 
 
-git push -u origin branch o commit: subir proyecto a github. 
+git push -u origin branch : subir proyecto a github.
+
+git fetch: descargar el historial sin los cambios.
+
+git pull: descargar el historial con los cambios.
 
 GITHUB:
 COMO INICIAR SESION EN GITHUB: nombre de usuario, email, contraseña.
@@ -117,7 +121,7 @@ CREAR CLAVE SSH: meterse al directorio ssh en terminal poner comando (ssh-keygen
   AddKeysToAgent yes
   UseKeychain yes
   IdentityFile ~/.ssh/nombre de la clave) y ir a los ajustes de GitHub y pulsamos el boton (ssh and gpg keys) y uno pulsa (new ssh key) y despues copiamos la clave ssh publica y la pegamos donde sale key y pulsamos el boton (add ssh key)
-Y vamos a la terminal y escribimos el comando (ssh -T git@github.com) y si sale Hi lauxa-dev! You've successfully authenticated, but GitHub does not provide shell access.
+Y vamos a la terminal y escribimos el comando (ssh -T git@github.com) y si sale Hi nombre de usuario! You've successfully authenticated, but GitHub does not provide shell access.
 Esta listo y si sale otra cosa escribimos yes.
 
 CREAR UN REPOSITORIO: acer clic en el boton new (si es primer repositorio poner poner nombre de usuario) y ponemos el comando (git remote add origin git@github.com:nombre de usuario/nombre de repositorio.git) y despues ponemos el comando (git push -u origin rama maestra)
